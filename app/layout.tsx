@@ -23,7 +23,7 @@ export default function RootLayout({
 				lang="en"
 				suppressHydrationWarning
 			>
-				<body className={cn(inter.className)}>
+				<body className={cn("bg-secondary", inter.className)}>
 					<ThemeProvider
 						attribute="class"
 						defaultTheme="system"
